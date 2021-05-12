@@ -1,7 +1,4 @@
-﻿// WhiteBeltWeekTwo_Sets_UniqueStringCount.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-//
-
-#include <iostream>
+﻿#include <iostream>
 #include <set>
 using namespace std;
 
@@ -11,15 +8,8 @@ void PrintSet(set<string> s) {
     }
 }
 
-void UniqueStringCounter(set<string> s) {
-    int counter = 0;
-    for (const auto& elem : s) {
-        if () {
-
-            counter++;
-        }
-    }
-    cout << counter << endl;
+inline void UniqueStringCounter(set<string> s) {
+    cout << s.size() << "unique strings"<< endl;
 }
 
 int main()
@@ -35,7 +25,8 @@ int main()
         --quantity;
     }
 
-    PrintSet(stringSet);
+    //PrintSet(stringSet);
     UniqueStringCounter(stringSet);
+    
 }
 
